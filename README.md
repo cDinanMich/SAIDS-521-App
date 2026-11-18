@@ -47,7 +47,7 @@ saids-521-app/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-username>/saids-521-app.git
+   git clone https://github.com/cDinanMich/saids-521-app.git
    cd saids-521-app
    ```
 
