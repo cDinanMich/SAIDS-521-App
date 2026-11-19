@@ -1,6 +1,7 @@
 # 2025 Fantasy Football Exploration Dashboard (SAIDS 521)
 
 **Streamlit Link:**
+
 https://saids-521-app-apdsay3gdmhyahqrrum2te.streamlit.app/
 
 An interactive data visualization dashboard built with **Streamlit** to analyze historical weekly fantasy football trends from the 2025 NFL regular season (Weeks 1–17). Created for **SAIDS 521 (Assignment 3)**, this project explores positional scoring value, weekly top performers, and statistical drivers behind PPR fantasy points to inform future draft strategies.
