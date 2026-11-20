@@ -51,7 +51,7 @@ The Dashboard should be a 2x2 grid that I will show with a local host.
 - What came back / what happened: (summary or short snippet) AI returned a script for modularizing my functions into a panel dashboard.
 - What was wrong or could be better: Script worked great, the only issue was the scatterplot matrix became unreadable.
 - How I noticed:  Vizually inspecting the dashboard.
-- What I did instead: I edited the code to change the arrangment of the original matrices as well as the size of the tile.
+- What I did instead: I edited the code to change the arrangement of the original matrices as well as the size of the tile. I also edited the ordering of the dashboard so that the player oriented visualizations came before the overall charts.
 
 Entry 5: Transition to Streamlit
 - Tool: Gemini
