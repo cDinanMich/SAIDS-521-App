@@ -64,7 +64,7 @@ saids-521-app/
    ```bash
    streamlit run app.py
    ```
-   The dashboard will open automatically in your default browser at `http://localhost:8501`.
+   The dashboard will open automatically in your default browser at `http://localhost:8501` at conclusion of Notebook.
 
 ---
 
