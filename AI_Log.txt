@@ -1,4 +1,12 @@
-Entry 1: Division mappings
+Entry 1: Import Issues
+- Tool: Gemini
+- What I asked for / what I was trying to do: I had trouble importing the data library due to SSL and package issues so I asked for an explanation on my errors.
+- What came back / what happened: (summary or short snippet) It gave me a way to set up SSL on my config and provided code for the package imports since my pip commands weren't working.
+- What was wrong or could be better: It turned out that PyArrow couldn't be downloaded no matter what due to a conflict on my machine
+- How I noticed: I kept getting an error even with AI's suggestion.
+- What I did instead: I removed the PyArrow dependency from my code.
+
+Entry 2: Division mappings
 - Tool: Gemini
 - What I asked for / what I was trying to do: I wanted a list of divisions based on the distict values in the teams column
 - What came back / what happened: (summary or short snippet) A python dictionary hardcoding the mappings
@@ -6,7 +14,7 @@ Entry 1: Division mappings
 - How I noticed: NA
 - What I did instead: NA
 
-Entry 2: Lollipop Chart
+Entry 3: Lollipop Chart
 - Tool: Gemini
 - What I asked for / what I was trying to do:
 I wanted it to create the skeleton of my lollipop chart so that I could begin tweaking it to my desired specifications.
@@ -23,7 +31,7 @@ After observing the chart the issue was clear.
 I filtered the data to only include the top player per week, and then hardcoded a color map so that the different lolipops would have colors that lined up with my other seaborn charts.
 These changes were necessary for the chart to tell any visual story.
 
-Entry 3: Treemap
+Entry 4: Treemap
 - Tool: Gemini
 - What I asked for / what I was trying to do: I wanted the colors and labels of my treemap to match the rest of my plots
 - What came back / what happened: (summary or short snippet) It came back with a way to do this with the update_traces() function
@@ -31,7 +39,7 @@ Entry 3: Treemap
 - How I noticed: Vizually inspecting the chart.
 - What I did instead: Additionally prompted for these arguments, and was provided the with additional customization options.
 
-Entry 4: Panel Dashboard
+Entry 5: Panel Dashboard
 - Tool: Gemini
 - What I asked for / what I was trying to do: I provided the chat with the vizualizations I created along with an in depth description of what filters I wanted.
 Because this was a more intense prompt, I have included it below.
@@ -53,7 +61,7 @@ The Dashboard should be a 2x2 grid that I will show with a local host.
 - How I noticed:  Vizually inspecting the dashboard.
 - What I did instead: I edited the code to change the arrangement of the original matrices as well as the size of the tile. I also edited the ordering of the dashboard so that the player oriented visualizations came before the overall charts.
 
-Entry 5: Transition to Streamlit
+Entry 6: Transition to Streamlit
 - Tool: Gemini
 - What I asked for / what I was trying to do: I wanted to change my Panel code to Streamlit after struggling to share dashboard
 - What came back / what happened: (summary or short snippet) An app.py file that I could push to GitHub and set up in Streamlit UI
@@ -61,7 +69,7 @@ Entry 5: Transition to Streamlit
 - How I noticed: NA
 - What I did instead: NA
 
-Entry 6: ReadMe.md
+Entry 7: ReadMe.md
 - Tool: Gemini
 - What I asked for / what I was trying to do: Asked for a readMe based on the Jupyter Notebook
 - What came back / what happened: (summary or short snippet) The ReadMe.md included in the Repo.
