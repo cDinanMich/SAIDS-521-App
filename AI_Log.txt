@@ -1,0 +1,63 @@
+Entry 1: Division mappings
+- Tool: Gemini
+- What I asked for / what I was trying to do: I wanted a list of divisions based on the distict values in the teams column
+- What came back / what happened: (summary or short snippet) A python dictionary hardcoding the mappings
+- What was wrong or could be better: Nothing this time, just saved me some manual effort.
+- How I noticed: NA
+- What I did instead: NA
+
+Entry 2: Lollipop Chart
+- Tool: Gemini
+- What I asked for / what I was trying to do:
+I wanted it to create the skeleton of my lollipop chart so that I could begin tweaking it to my desired specifications.
+I described the chart, explained what is would be used for, and gave a brief description of the data.
+- What came back / what happened: (summary or short snippet)
+It provided the skeleton so that I could begin changing it to my desired specification, but with a funny error.
+- What was wrong or could be better: (error, outdated API, misleading chart, poor design)
+It did not remember that I wanted to only include the top player per week, so the chart was an absolute disaster.
+I had to go in and fix the data so only the index with the highest score per week was kept for the chart to be legible. 
+Smaller issues included forgetting color which I had to add myself.
+- How I noticed: (error message, checked docs, compared against the data, looked at the chart)
+After observing the chart the issue was clear.
+- What I did instead: (your fix and why)
+I filtered the data to only include the top player per week, and then hardcoded a color map so that the different lolipops would have colors that lined up with my other seaborn charts.
+These changes were necessary for the chart to tell any visual story.
+
+Entry 3: Treemap
+- Tool: Gemini
+- What I asked for / what I was trying to do: I wanted the colors and labels of my treemap to match the rest of my plots
+- What came back / what happened: (summary or short snippet) It came back with a way to do this with the update_traces() function
+- What was wrong or could be better: Only some colors were changed, I had to additionally prompt to ask what arguements I could pass into the function.
+- How I noticed: Vizually inspecting the chart.
+- What I did instead: Additionally prompted for these arguments, and was provided the with additional customization options.
+
+Entry 4: Panel Dashboard
+- Tool: Gemini
+- What I asked for / what I was trying to do: I provided the chat with the vizualizations I created along with an in depth description of what filters I wanted.
+Because this was a more intense prompt, I have included it below.
+
+Original Prompt:
+I want to use the 4 visualizations created in the notebook to create a panel dashboard.
+I would like this dashboard to filter all vizualizations by division, team, and have a slider for weeks included.
+Additionally, I would like to be able to filter the players included by their overall percentile in raw points in comparison to their position group.
+I have added the code for these 4 vizualizations.
+Supplement the code with this enhancement. Before doing this, ask for any clarification on aspects of the task that are unclear. 
+
+Secondary Prompt:
+Player percentile should be calculated once across the full 17 week season. It should allow a specific range as a slider.
+The filters should be multiselect, but do not have to narrow down to relevant values with other filters.
+The Dashboard should be a 2x2 grid that I will show with a local host. 
+
+- What came back / what happened: (summary or short snippet) AI returned a script for modularizing my functions into a panel dashboard.
+- What was wrong or could be better: Script worked great, the only issue was the scatterplot matrix became unreadable.
+- How I noticed:  Vizually inspecting the dashboard.
+- What I did instead: I edited the code to change the arrangment of the original matrices as well as the size of the tile.
+
+Entry 5: Transition to Streamlit
+- Tool: Gemini
+- What I asked for / what I was trying to do: I wanted to change my Panel code to Streamlit after struggling to share dashboard
+- What came back / what happened: (summary or short snippet) An app.py file that I could push to GitHub and set up in Streamlit UI
+- What was wrong or could be better: Translation went smooth, just took some time to set up in Streamlit UI
+- How I noticed: NA
+- What I did instead: NA
+
