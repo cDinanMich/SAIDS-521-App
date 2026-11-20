@@ -6,6 +6,10 @@ An interactive data visualization dashboard built with **Streamlit** to analyze 
 
 https://saids-521-app-apdsay3gdmhyahqrrum2te.streamlit.app/
 
+**Youtube walkthrough Link**
+
+https://youtu.be/kEfLuMTezmY
+
 ## 📊 Dashboard Features
 
 The application organizes four interactive visualizations into a responsive 2×2 grid:
