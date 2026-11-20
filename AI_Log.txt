@@ -61,3 +61,10 @@ Entry 5: Transition to Streamlit
 - How I noticed: NA
 - What I did instead: NA
 
+Entry 6: ReadMe.md
+- Tool: Gemini
+- What I asked for / what I was trying to do: Asked for a readMe based on the Jupyter Notebook
+- What came back / what happened: (summary or short snippet) The ReadMe.md included in the Repo.
+- What was wrong or could be better: It mixed up how to Streamlit deployment worked compared to the local deployment.
+- How I noticed: Manually reviewed markdown.
+- What I did instead: Changed this to clarify how process actually worked.
